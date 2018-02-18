@@ -3,7 +3,7 @@ bem-naming
 
 Tool for working with [BEM entity](https://en.bem.info/methodology/key-concepts/#bem-entity) representations: allows you to parse [string representation](#string-representation) and stringify [object representation](#object-representation).
 
-Supports various [naming conventions](#naming-conventions): [origin](#origin-naming-convention), [two-dashes](#harry-roberts-naming-convention), [react]((#react-naming-convention)) and allows to create your convention.
+Supports various [naming conventions](#naming-conventions): [origin](#origin-naming-convention), [two dashes](#two-dashes-style), [react]((#react-naming-convention)) and allows to create your convention.
 
 [![NPM Status][npm-img]][npm]
 [![Travis Status][test-img]][travis]
@@ -48,7 +48,7 @@ Table of Contents
 * [Common misconceptions](#common-misconceptions)
 * [Naming conventions](#naming-conventions)
   * [Origin naming convention](#origin-naming-convention)
-  * [Harry Roberts' naming convention](#harry-roberts-naming-convention)
+  * [Two Dashes style](#two-dashes-style)
   * [React naming convention](#react-naming-convention)
   * [Custom naming convention](#custom-naming-convention)
 * [API](#api)
@@ -137,7 +137,7 @@ The BEM methodology provides an idea for creating naming rules and implements th
 
 However, a number of alternative schemes based on the BEM principles also exist in the world of web development:
 
-* [Harry Roberts' naming convention](#harry-roberts-naming-convention)
+* [Two Dashes style](#two-dashes-style)
 * [React naming convention](#react-naming-convention)
 
 In addition, you can invent your naming convention. How to do this, see the [Custom naming convention](#custom-naming-convention) section.
@@ -166,7 +166,7 @@ originNaming.stringify({
 // ➜ block__elem_mod
 ```
 
-### Harry Roberts' naming convention
+### Two Dashes style
 
 According to this convention elements are delimited with two underscores (`__`), modifiers are delimited by two hyphens (`--`), and values of modifiers are delimited by one underscore (`_`).
 
